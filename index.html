@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder Form</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>Milestone Number 3</h1>
+        <h2>Dynamic Resume Builder</h2>
+    </div>
+    <div class="main">
+        <form id="resumeForm">
+            <div class="personal">
+                <h3><strong>Personal Information</strong></h3>
+            </div><br>
+
+            <label for="FirstName"><strong>Enter Your First Name:</strong></label>
+            <input type="text" id="FirstName" name="FirstName" required><br><br>
+
+            <label for="LastName"><strong>Enter Your Last Name:</strong></label>
+            <input type="text" id="LastName" name="LastName" required><br><br>
+
+            <label for="Email"><strong>Enter Your Email:</strong></label>
+            <input type="email" id="Email" name="Email" required><br><br>
+
+            <label for="Phone"><strong>Enter Your Phone Number:</strong></label>
+            <input type="tel" id="Phone" name="Phone" required><br><br>
+
+            <label for="Address"><strong>Enter Your Address:</strong></label>
+            <input type="text" id="Address" name="Address" required><br><br>
+
+            <div class="personal">
+                <h3><strong>Skills</strong></h3>
+            </div><br>
+            <label for="Skills"><strong>Enter Your Skills:</strong></label>
+            <input type="text" id="Skills" name="Skills" required><br><br>
+
+            <div class="personal">
+                <h3><strong>Education</strong></h3>
+            </div><br>
+            <label for="Education"><strong>Enter Your Education:</strong></label>
+            <textarea id="Education" name="Education" required></textarea><br><br>
+
+            <div class="personal">
+                <h3><strong>Experience</strong></h3>
+            </div><br>
+            <label for="Experience"><strong>Enter Your Experience:</strong></label>
+            <textarea id="Experience" name="Experience" required></textarea><br><br>
+
+            <input type="submit" value="Generate Resume">
+        </form>
+    </div>
+    <div id="resumeOutput">
+        <h1 class="resumeinfo">Personal Information</h1>
+        <h2 class="resumestyle">First Name</h2>
+        <h3 id="displayFirstName"></h3>
+        <h2 class="resumestyle">Last Name</h2>
+        <h3 id="displayLastName"></h3>
+        <h2 class="resumestyle">Email</h2>
+        <h3 id="displayEmail"></h3>
+        <h2 class="resumestyle">Phone Number</h2>
+        <h3 id="displayPhone"></h3>
+        <h2 class="resumestyle">Address</h2>
+        <h3 id="displayAddress"></h3>
+
+        <h1 class="resumeinfo">Skills</h1>
+        <h3 id="displaySkills"></h3>
+
+        <h1 class="resumeinfo">Education</h1>
+        <h3 id="displayEducation"></h3>
+
+        <h1 class="resumeinfo">Experience</h1>
+        <h3 id="displayExperience"></h3 >
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

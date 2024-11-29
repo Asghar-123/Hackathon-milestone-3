@@ -1,0 +1,150 @@
+body{
+    font-family:sans-serif;
+    margin: 10px;
+    background-color:burlywood;
+}
+
+.heading{
+    color: blueviolet;
+    font-size:x-large;
+    text-align: center;
+    font-style:oblique;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.main{
+    max-width: 60%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.personal{
+    color: red;
+    background-color: yellow;
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+    border: 0svb;
+    border-color: red;
+
+}
+
+.forpic{
+    color: darkblue;
+}
+
+input[type="file"]{
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    background-color: aqua;
+    border-radius: 30px;
+    margin-top: 20px;
+
+}
+
+input[type="file"]::file.selector-button{
+    background-color: aquamarine;
+    cursor: cell;
+    font-size: medium;
+    color: aliceblue;
+    border-color: blue;
+    border-radius: 10px;
+
+}
+
+form{
+    margin-bottom: 40px;
+    
+}
+
+input,textarea{
+    display:block;
+    margin-bottom: 10px;
+    width:100%;
+    padding: 8px;
+    font-size: 14px;
+    background-color:darkgray;
+    border-width: 3px;
+}
+
+h4{
+    background-color: gold;
+}
+
+#resumeOutput{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 80px;
+    text-align: center;
+    border: 3px solid cornsilk;
+    color: blueviolet;
+
+}
+
+h1{
+    background-color: aqua;
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+h2 , p{
+    margin: 10px 0;
+
+}
+
+h2{
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+
+}
+
+p{
+    color: rgb(48, 30, 210);
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+@media(max-width:600px){
+    body{
+        margin: 10px;
+
+    }
+
+    form{
+        padding: 15px;
+        margin-bottom: 20px;
+
+    }
+
+    h2{
+        font-size: 2cm;
+
+    }
+
+    p{
+        font-size: 1cm;
+    }
+
+    input[type="submit"]{
+        padding: auto;
+
+    }
+
+    #resumeOutput{
+        padding: 15px;
+        margin-bottom: 20px;
+        margin-left: -3px;
+    }
+}
+h3{
+    color: crimson;
+}
